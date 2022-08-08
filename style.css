@@ -205,6 +205,8 @@ color: #9497A5;
 }
 
 .courses{
+    display: flex;
+    flex-direction: column;
     margin-left: 135px;
     margin-top: 107px;
 }
@@ -276,7 +278,7 @@ color: #9497A5;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 12px;
+    margin-top: 42px;
     margin-left: 60px;
 }
 
@@ -434,4 +436,23 @@ border-radius: 16px;
 border: 1px solid #FFE2E5;
 margin: 24px;
 text-align: center;
+}
+
+.all_courses{
+    display: flex;
+    justify-content: center;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4A90E2;
+    border: 1px solid rgba(74, 144, 226, 0.3);
+    border-radius: 6px;
+    background: #ffffff;
+    margin-top: 32px;
+    margin-right: 40px;
+    padding-top: 15px;
 }
