@@ -7,14 +7,7 @@ body {
     font-family: 'Sora', sans-serif;
 }
 
-input {
-    background-color: white;
-    border: 1px solid rgba(74, 144, 226, 0.3);
-    border-radius: 6px;
-    padding: 15px 37px;
-    color: #4A90E2;
-    text-transform: uppercase;
-}
+
 
 input:hover {
     opacity: .8;
@@ -27,18 +20,12 @@ input:hover {
     background: url('img/bg.png');
 }
 
-.wrapper {
-    width: 76%;
-    margin-left: 175px;
-}
-
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Выбери этот вариант инпута или тот, что выше */
 .container input {
     box-sizing: border-box;
     border: 1px solid rgba(74, 144, 226, 0.3);
@@ -152,7 +139,7 @@ header .container {
     position: absolute;
     z-index: -1;
     width: 100%;
-    height: 300px;
+    height: 330px;
     background-size: 50%;
 }
 
@@ -184,4 +171,267 @@ header .container {
 
 .group img {
     margin-left: 30px;
+}
+
+.categories input{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4A90E2;
+    border: 1px solid rgba(74, 144, 226, 0.3);
+    border-radius: 6px;
+    padding:15px 37px;
+    background: #ffffff;
+    text-transform: uppercase;
+}
+
+.courses h2{
+    font-weight: 700;
+font-size: 56px;
+line-height: 64px;
+letter-spacing: -2px;
+
+color: #333333;
+}
+
+.courses h5{
+    font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+letter-spacing: 3px;
+text-transform: uppercase;
+
+color: #9497A5;
+}
+
+.courses{
+    margin-left: 135px;
+    margin-top: 107px;
+}
+
+.courses_container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 32px;
+    margin-top: 67px;
+}
+
+.course1{
+    width: 570px;
+    height: 416px;
+    background-image: url(img/Group\ 8.png);
+    grid-column: span 2;
+}
+
+.Math{
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333333;
+    background: #E3F0FF;
+    border: 1px solid #E3F0FF;
+    border-radius: 16px;
+    width: 66px;
+    height: 32px;
+    text-align: center;
+    margin: 32px 32px;
+}
+
+.Math2{
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333333;
+    background: #E3F0FF;
+    border: 1px solid #E3F0FF;
+    border-radius: 16px;
+    width: 66px;
+    height: 32px;
+    text-align: center;
+    margin: 24px;
+}
+
+.course1 h1{
+    font-family: 'Sora';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    padding: 102px 0 0 32px;
+}
+
+.course1 h4{
+    font-family: 'Sora';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.502972);
+}
+
+.group_course1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 60px;
+}
+
+.group_course1 p{
+    font-family: 'Sora';
+    margin-left: 120px;
+    font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+color: #FFFFFF;
+}
+
+.group_course1 input{
+    font-family: 'Sora';
+    margin-left: 25px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #FF7988;
+    width: 134px;
+    height: 48px;
+    border: 1px solid #FF7988;
+    border-radius: 6px;
+}
+
+.course2{
+background-image: url(img/Group\ 7.png);
+}
+
+.course3{
+    background-image: url(img/Group\ 9.png);
+    }
+
+.course4{
+background-image: url(img/Group\ 6.png);
+}
+
+.course5{
+background-image: url(img/Group\ 5.png);
+}
+
+.course6{
+background-image: url(img/Group\ 3.png);
+}
+
+.course7{
+background-image: url(img/Group\ 4.png);
+}
+
+.course2 ,.course3,.course4,.course5,.course6,.course7{
+width: 270px;
+height: 416px;
+background-repeat: no-repeat;
+box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0818614);
+border-radius: 12px;
+}
+
+.Physics{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333333;
+    font-family: 'Sora';
+    background: #FFF2DE;
+    border-radius: 16px;
+    width: 84px;
+    height: 32px;
+    text-align: center;
+    margin: 24px;
+    border: 1px solid #fff2de;
+}
+
+.course_text{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    font-family: 'Sora';
+    margin-top: 122px;
+    margin-left: 24px;
+}
+
+.course_name{
+    font-family: 'Sora';
+    padding:20px 0 0 66px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+.prising{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.group_course2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.group_course2 input{
+    margin-left: 49px;
+    margin-top: 30px;
+    margin-bottom: 32px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4A90E2;
+    border: 1px solid rgba(74, 144, 226, 0.3);
+    border-radius: 6px;
+    padding: 15px 18.02px;
+    background: #ffffff;
+}
+
+.Chemistry{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333333;
+    background: #ECFFD7;
+    border: 1px solid #ECFFD7;
+    border-radius: 16px;
+    text-align: center;
+    width: 109px;
+    height: 32px;
+    margin: 24px;
+}
+
+.Informatics{
+    font-family: 'Sora';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+color: #333333;
+width: 118px;
+height: 32px;
+background: #FFE2E5;
+border-radius: 16px;
+border: 1px solid #FFE2E5;
+margin: 24px;
+text-align: center;
 }
