@@ -184,6 +184,8 @@ header .container {
 }
 
 .courses h2 {
+    margin-left: 135px;
+    align-self: start;
     font-weight: 700;
     font-size: 56px;
     line-height: 64px;
@@ -193,6 +195,8 @@ header .container {
 }
 
 .courses h5 {
+    margin-left: 135px;
+    align-self: start;
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
@@ -379,4 +383,219 @@ header .container {
 
 .Informatics {
     background: #FFE2E5;
+}
+
+#btn_All_Courses{
+    width: 1170px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    background: #EAF3FF;
+}
+
+.about_container{
+    margin:160px 135px  0 135px ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+.about_container img{
+    grid-column:span 2;
+}
+
+.about_container h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #9497A5;
+}
+
+.about_container h1{
+    margin-top: 18px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    color: #333333;
+}
+
+.about_text{
+    margin-top: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333333;
+}
+
+.about_info1,
+.about_info2,
+.about_info3{
+    margin-top: 205px;
+}
+
+.about_info1 h1,
+.about_info2 h1,
+.about_info3 h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #333333;
+}
+
+.about_info_container{
+    display: flex;
+    justify-content: center;
+}
+
+.about_info_container h5{
+    font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+color: #333333;
+margin-left: 6px;
+margin-top: 20px;
+}
+
+.about_description1{
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #333333;
+}
+
+.about_description2{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+.about_group{
+    margin-top: 70px;
+}
+
+.how_we_work{
+    background:#EAF3FF;
+    display: flex;
+    flex-direction: column;
+}
+
+.how_we_work span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #9497A5;
+}
+
+.hww_text{
+    margin-top: 18px;
+    margin-bottom: 68px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #333333;
+}
+
+.start_learning,
+.follow_the_plan,
+.get_successful{
+    border-radius: 12px;
+    background: #ffffff;
+    margin-bottom: 32px;
+    display: flex;
+    width: 670px;
+    height: 192px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0818614);
+    border-radius: 12px;
+    justify-content: start;
+    text-align: start;
+}
+
+.step_number1{
+    background: #E3F0FF;
+    margin-right: 48px;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.step_number2{
+    background: #FFF2DE;
+    margin-left: 50px;
+    border-radius: 0px 12px 12px 0px;
+}
+
+.step_number3{
+    margin-right: 48px;
+    background: #FFE2E5;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.step_number1,
+.step_number2,
+.step_number3{
+    text-align: center;
+    width: 200px;
+    height: 192px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 80px;
+    letter-spacing: -3px;
+    color: #333333;
+}
+
+
+.step_number1 h2,
+.step_number2 h2,
+.step_number3 h2{
+    text-align: center;
+    margin-top: 56px;
+}
+
+.follow_the_plan{
+    justify-content: end;
+}
+
+.text_container{
+    margin-top: 40px;
+}
+
+.text_container p{
+    margin-top: 19px;
+}
+
+.start_learning h3,
+.follow_the_plan h3,
+.get_successful h3{
+    font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+color: #333333;
+}
+
+.start_learning p,
+.follow_the_plan p,
+.get_successful p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(51, 51, 51, 0.5);
 }
